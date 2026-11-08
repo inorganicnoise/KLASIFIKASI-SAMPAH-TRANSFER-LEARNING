@@ -1,12 +1,32 @@
 
-# ♻️ Waste Classification Using Transfer Learning
+# Project Deep Learning - SDGs 12 Konsumsi dan Produksi yang Bertanggung Jawab
 
-### Implementasi Transfer Learning Berbasis CNN untuk Klasifikasi Jenis Sampah di Lingkungan Kampus
+## ♻️ Implementasi Transfer Learning Berbasis CNN untuk Klasifikasi Jenis Sampah di Lingkungan Kampus
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
+
+Proyek ini berkaitan dengan **SDG 12: Responsible Consumption and Production (Konsumsi dan Produksi yang Bertanggung Jawab)**.
+
+SDG 12 menekankan pentingnya pola konsumsi dan produksi yang bertanggung jawab, termasuk pengurangan limbah serta peningkatan pengelolaan sampah.
+
+Melalui penerapan teknologi Deep Learning, proyek ini diharapkan dapat mendukung proses identifikasi jenis sampah sebagai salah satu upaya untuk meningkatkan kesadaran dan efektivitas pemilahan sampah.
+
+---
+
+## 👥 Anggota Kelompok
+
+| No. | Nama Anggota | NIM |
+|---|---|---|
+| 1 | Elsya Sagitha Damayanti S | F1G125029 |
+| 2 | Rahmah Hidayah Lahompu | F1G125047 |
+| 3 | Ridha Septiani K | F1G125075 |
+
+**Program Studi Ilmu Komputer**  
+**Fakultas Matematika dan Ilmu Pengetahuan Alam**  
+**Universitas Halu Oleo**
 
 ---
 
@@ -55,9 +75,7 @@ Dataset yang digunakan dalam proyek ini adalah **RealWaste Dataset** yang dipero
 
 🔗 **Sumber Dataset:** [RealWaste - Kaggle](https://www.kaggle.com/datasets/joebeachcapital/realwaste)
 
-RealWaste merupakan dataset citra sampah yang berisi gambar berbagai jenis material sampah yang dikumpulkan dari fasilitas pengelolaan dan pemulihan sumber daya sampah di Whyte's Gully, Wollongong, Australia.
-
-Dataset ini digunakan untuk melatih dan menguji kemampuan model dalam mengenali serta mengklasifikasikan jenis sampah berdasarkan karakteristik visualnya.
+RealWaste merupakan dataset citra sampah yang berisi gambar berbagai jenis material sampah. Dataset ini digunakan untuk melatih dan menguji kemampuan model dalam mengenali serta mengklasifikasikan jenis sampah berdasarkan karakteristik visualnya.
 
 ### 📊 Informasi Dataset
 
@@ -87,12 +105,6 @@ Dataset RealWaste terdiri dari sembilan kategori sampah sebagai berikut:
 | 8 | Textile Trash | 318 |
 | 9 | Vegetation | 436 |
 | | **Total** | **4.752** |
-
-### 📌 Sumber dan Referensi Dataset
-
-Single, S., Iranmanesh, S., & Raad, R. (2023). *RealWaste: A Novel Real-Life Data Set for Landfill Waste Classification Using Deep Learning*. Information, 14(12), 633.
-
-DOI: https://doi.org/10.3390/info14120633
 
 ---
 
@@ -184,64 +196,5 @@ Performa model akan dievaluasi menggunakan beberapa metrik berikut:
 Hasil evaluasi akan digunakan untuk menganalisis kemampuan model dalam mengenali masing-masing kategori sampah, termasuk kategori yang berpotensi mengalami kesalahan klasifikasi.
 
 ---
-
-## 📂 Struktur Repository
-
-```text
-waste-classification-transfer-learning/
-│
-├── dataset/
-│   ├── raw/                    # Dataset asli RealWaste
-│   └── processed/              # Dataset setelah preprocessing
-│
-├── notebooks/
-│   ├── 01_exploratory_data_analysis.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_model_evaluation.ipynb
-│
-├── models/
-│   └── best_model.keras        # Model hasil training
-│
-├── results/
-│   ├── accuracy.png
-│   ├── loss.png
-│   ├── confusion_matrix.png
-│   └── classification_report.txt
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
-
-*Catatan: Struktur tersebut merupakan rancangan direktori proyek. File dan folder akan ditambahkan secara bertahap sesuai proses pengembangan.*
-
----
-
-## 🌱 Sustainable Development Goals (SDGs)
-
-Proyek ini berkaitan dengan **SDG 12: Responsible Consumption and Production (Konsumsi dan Produksi yang Bertanggung Jawab)**.
-
-SDG 12 menekankan pentingnya pola konsumsi dan produksi yang bertanggung jawab, termasuk pengurangan limbah serta peningkatan pengelolaan sampah.
-
-Melalui penerapan teknologi Deep Learning, proyek ini diharapkan dapat mendukung proses identifikasi jenis sampah sebagai salah satu upaya untuk meningkatkan kesadaran dan efektivitas pemilahan sampah.
-
----
-
-## 👥 Anggota Kelompok
-
-| No. | Nama Anggota | NIM |
-|---|---|---|
-| 1 | Nama Anggota 1 | NIM Anggota 1 |
-| 2 | Nama Anggota 2 | NIM Anggota 2 |
-| 3 | Nama Anggota 3 | NIM Anggota 3 |
-
----
-
-## 🚧 Status Proyek
-
-![Project Status](https://img.shields.io/badge/Project%20Status-In%20Development-yellow)
-
-Proyek ini masih dalam tahap pengembangan.
 
 Proses implementasi, pelatihan model, pengujian, dan evaluasi akan dilakukan secara bertahap. Hasil pengembangan akan diperbarui seiring dengan kemajuan pengerjaan proyek.
